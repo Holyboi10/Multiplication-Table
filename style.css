@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* overflow: hidden; */
+    background-color: red;
+}
+#flex-them{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    /* color: white; */
+    margin-top: 50px;
+}
+h2{
+    color: red;
+}
+#tin{
+    border: 1px solid gray;
+    width: 20%;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+p{
+    /* color: brown; */
+}
+#tin:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-device-width: 798px) {
+    #flex-them{
+        width: 100vw;
+        font-size: 12px;
+    
+   }
+}
